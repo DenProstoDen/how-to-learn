@@ -98,6 +98,7 @@ body{
 .two-colums{
   display: flex;
   flex-direction: row;
+  margin-top: -120px;
 }
 .brief{
   width: 175px;
@@ -200,6 +201,7 @@ body{
 .subtitle > p {
   margin: 0;
   text-align: center;
+  margin-top: -65px;
 }
 .feynman__img{
   display: flex;
@@ -233,6 +235,7 @@ body{
   flex-direction: column;
   background-color: black;
   position: relative;
+  margin-top: -200px;
 }
 .section-title_theme_dark{
   color: white;
