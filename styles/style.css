@@ -293,14 +293,11 @@
   flex-direction: column;
 }
 .footer__social-icon {
-  display: flex;
-  margin-top: 10px;
   width: 16px;
   height: 16px;
 }
 .footer__column-links {
   margin: 0;
-  padding: 0;
 }
 .footer__column-heading {
   line-height: 30px;
@@ -310,9 +307,18 @@
   margin-bottom: 10px;
 }
 .footer__column-link {
-  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+.footer__column-link__no-styles {
+  text-decoration: none;
+  color: white;
+}
+.footer__column-link_no-margin{
+  margin: 0;
+  padding: 0;
 }
