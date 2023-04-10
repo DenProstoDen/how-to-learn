@@ -55,6 +55,42 @@
   font-weight: normal;
 }
 
+.video {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  z-index: 10;
+  margin-bottom: -60px;
+}
+
+.iframes {
+  margin-top: 50px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+}
+
+.video__iframes {
+  height: 316px;
+  width: 516px;
+}
+
+.oakley {
+  padding-top: 160px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  width: 80%;
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+
 
 
 
