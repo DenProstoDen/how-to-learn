@@ -14,11 +14,11 @@
 
 /*подсекция discription*/
 @import url(../blocks/content/discription/discription.css);
-@import url(../blocks/content/discription/two-columns/two-columns.css);
-@import url(../blocks/content/discription/two-columns/__brief/two-columns__brief.css);
-@import url(../blocks/content/discription/two-columns/__main-text/two-columns__main-text.css);
-@import url(../blocks/content/discription/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../blocks/content/discription/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../blocks/content/common/two-columns/two-columns.css);
+@import url(../blocks/content/common/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/content/common/two-columns/__paragraph/two-columns__paragraph.css);
+@import url(../blocks/content/common/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../blocks/content/common/two-columns/__brief/two-columns__brief.css);
 
 /*подсекция digits*/
 @import url(../blocks/content/digits/digits.css);
