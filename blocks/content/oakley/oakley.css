@@ -1,0 +1,9 @@
+.oakley {
+  padding-top: 160px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f2f2f2;
+}

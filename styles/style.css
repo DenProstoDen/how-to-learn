@@ -13,7 +13,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
   position: relative;
 }
-.techniques {
+/* .techniques {
   display: flex;
   width: 80%;
   flex-direction: column;
@@ -47,15 +47,15 @@
   font-size: 24px;
   font-weight: 600;
 }
-.cards__descriprion {
+.cards__description {
   margin: 0;
   margin-top: 16px;
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
-}
+} */
 
-.video {
+/* .video {
   display: flex;
   flex-direction: column;
   margin-top: 100px;
@@ -74,9 +74,9 @@
 .video__iframes {
   height: 316px;
   width: 516px;
-}
+} */
 
-.oakley {
+/* .oakley {
   padding-top: 160px;
   display: flex;
   margin-left: auto;
@@ -84,9 +84,9 @@
   justify-content: space-between;
   width: 100%;
   background-color: #f2f2f2;
-}
+} */
 
-.khan {
+/* .khan {
   display: flex;
   flex-direction: column;
   background-color: #f2f2f2;
@@ -147,9 +147,9 @@
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
-}
+} */
 
-.resources {
+/* .resources {
   padding-top: 100px;
   display: flex;
   flex-direction: column;
@@ -167,7 +167,7 @@
 .resources__link {
   width: 270px;
   height: 38px  ;
-}
+} */
 
 
 
