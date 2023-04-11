@@ -39,12 +39,12 @@
 
 /*подсекция kaufman*/
 @import url(../blocks/content/kaufman/kaufman.css);
-@import url(../blocks/content/kaufman/table/table_theme_dark.css);
-@import url(../blocks/content/common/table/__heading/_theme_dark/table__heading_theme_dark.css);
-@import url(../blocks/content/common/table/__cell/_theme_dark/table__cell_theme_dark.css);
+@import url(../blocks/content/kaufman/table/_theme.css);
+@import url(../blocks/content/common/table/__heading/_theme/table__heading_theme_dark.css);
+@import url(../blocks/content/common/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/content/kaufman/__triangle/kaufman__triangle.css);
-@import url(../blocks/content/common/section-subtitle/_theme_dark/section-subtitle_theme_dark.css);
-@import url(../blocks/content/common/section-title/_theme_dark/section-title_theme_dark.css);
+@import url(../blocks/content/common/section-subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(../blocks/content/common/section-title/_theme/section-title_theme_dark.css);
 
 /*Секция footer*/
 @import url(../blocks/footer/footer.css);
