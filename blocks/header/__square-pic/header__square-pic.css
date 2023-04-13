@@ -7,6 +7,5 @@
   top: 0;
   right: 0;
   z-index: 5;
-  margin-top: 64px;
-  animation: 20s linear infinite rotation;
+  top: 64px;
 }

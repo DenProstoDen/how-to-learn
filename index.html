@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="styles/style.css" rel="stylesheet">
   <link href="page/index.css" rel="stylesheet">
   <title>Научиться учиться</title>
 </head>
@@ -16,7 +15,7 @@
           <a href="#" class="header__link">Узнать &rarr;</a>
         </p>
         <img alt="Главная картинка" class="header__main-illustration" src="images/header-image.png">
-        <div class="header__square-pic"></div>
+        <div class="rotation header__square-pic"></div>
       </header>
        <main class="content">
           <section class="description">
@@ -44,43 +43,43 @@
             <div class="cards">
               <div class="cards__item">
                 <img class="cards__image" src="images/cards-attention.png" alt="внимание">
-                <p class="cards__title">Два вида внимания</p>
+                <h4 class="cards__title">Два вида внимания</h4>
                 <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
               </div>
               <div class="cards__item">
                 <img class="cards__image" src="images/cards-recall.png" alt="рекол">
-                <p class="cards__title">Recall</p>
+                <h4 class="cards__title">Recall</h4>
                 <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
               </div>
               <div class="cards__item">
                 <img class="cards__image" src="images/cards-interliving.png" alt="интерливинг">
-                <p class="cards__title">Интерливинг</p>
+                <h4 class="cards__title">Интерливинг</h4>
                 <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
               </div>
               <div class="cards__item">
                 <img class="cards__image" src="images/cards-question.png" alt="вопросы">
-                <p class="cards__title">Вопросы</p>
+                <h4 class="cards__title">Вопросы</h4>
                 <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
               </div>
               <div class="cards__item">
                 <img class="cards__image" src="images/cards-competence.png" alt="Иллюзия компетентности">
-                <p class="cards__title">Иллюзия компетентности</p>
+                <h4 class="cards__title">Иллюзия компетентности</h4>
                 <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
               </div>
             </div>
           </section>
           <section class="video">
             <h2 class="section-title">Видео на TED</h2>
-            <h3 class="section-subtitle">Для тех, кто любит прокастинировать</h3>
-            <div class="iframes">
-              <iframe class="video__iframes" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
-              <iframe class="video__iframes" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
+            <p class="section-subtitle">Для тех, кто любит прокастинировать</p>
+            <div class="video__iframes">
+              <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
+              <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
             </div>
           </section>
           <section class="oakley">
             <div class="two-columns">
-              <h2 class="two-columns two-columns__brief">История Барбары Оакли.</h2>
-              <div class="two-columns two-columns__main-text">
+              <h2 class="two-columns__brief">История Барбары Оакли.</h2>
+              <div class="two-columns__main-text">
                 <p class="two-columns__paragraph">
                   С детства Барбаре не давалась математика. Она считала себя законченным
                   гуманитарием, причём далеко не самым умным. В армии она изучала русский язык,
@@ -202,17 +201,17 @@
                 <p class="table__text">Уделяйте внимание количеству и скорости.</p>
               </div>
             </div>
-            <div class="kaufman__triangle"></div>
+            <div class="rotation kaufman__triangle"></div>
           </section>
           <section class="resources">
             <h2 class="section-title">Полезные ресурсы</h2>
             <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
-            <p class="resources__logo-zone">
-              <a href="#"><img class="resources__link" src="images/logotype/resources-arzamas.svg" alt="Арзамас"></a>
-              <a href="#"><img class="resources__link" src="images/logotype/resources-n1.svg" alt="Номер 1"></a>
-              <a href="#"><img class="resources__link" src="images/logotype/resources-strelka.svg" alt="Стрелка"></a>
-              <a href="#"><img class="resources__link" src="images/logotype/resources-polka.svg" alt="Полка"></a>
-            </p>
+            <div class="resources__logo-zone">
+              <a class="resources__link" href="#"><img class="resources__logo" src="images/logotype/resources-arzamas.svg" alt="Арзамас"></a>
+              <a class="resources__link" href="#"><img class="resources__logo" src="images/logotype/resources-n1.svg" alt="Номер 1"></a>
+              <a class="resources__link" href="#"><img class="resources__logo" src="images/logotype/resources-strelka.svg" alt="Стрелка"></a>
+              <a class="resources__link" href="#"><img class="resources__logo" src="images/logotype/resources-polka.svg" alt="Полка"></a>
+            </div>
           </section>
       </main>
         <footer class="footer">
