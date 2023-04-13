@@ -1,4 +1,4 @@
 .cards__item {
   margin-top: 60px;
-  width: 200px;
+  width: min-content;
 }
