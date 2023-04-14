@@ -3,4 +3,7 @@
   height: 38px;
   width: 270px;
 }
-
+.resources__link:hover {
+  opacity: 0.4;
+  transition: all 0.4s;
+}
