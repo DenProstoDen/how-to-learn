@@ -4,5 +4,5 @@
   flex-direction: row;
   width: 920px;
   align-self: center;
-  gap: 100px;
+  grid-gap: 0 100px;
 }
